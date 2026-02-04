@@ -17,3 +17,35 @@ build/
 
 # Allow tracked placeholders
 !.gitkeep
+# ===== system =====
+.DS_Store
+Thumbs.db
+
+# ===== logs =====
+*.log
+
+# ===== env secrets =====
+.env
+.env.local
+
+# ===== node / builds =====
+node_modules/
+.next/
+dist/
+build/
+
+# ===== media =====
+*.mp4
+*.mkv
+*.zip
+*.tar
+
+# ===== vendor libraries (IMPORTANT) =====
+lib/PHPMailer/
+public/lib/PHPMailer-master/
+vendor/
+_config/mail.php
+
+# ===== backups =====
+backup/
+backups/
