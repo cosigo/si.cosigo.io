@@ -22,11 +22,11 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 try {
     $mail = cosigo_mailer();
 
-    $mail->setFrom('sales@cosigo.io', 'Laredo Satellite');
+    $mail->setFrom('sales@cosigo.io', 'Si Cosigo');
     $mail->addAddress('sales@cosigo.io');
     $mail->addReplyTo($email, $name);
 
-    $mail->Subject = "[Laredo Satellite] " . $subject;
+    $mail->Subject = "[Si Cosigo, Quiero Conocer Mas] " . $subject;
     $mail->Body =
         "Name: $name\n" .
         "Email: $email\n\n" .
