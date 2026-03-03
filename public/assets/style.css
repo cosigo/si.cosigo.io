@@ -232,20 +232,6 @@ main a:hover{
   filter: drop-shadow(0 10px 22px rgba(180,106,60,.35));
 }
 
-form.contact-form input[name="_gotcha"]{
-  display: none !important;
-  visibility: hidden !important;
-  position: absolute !important;
-  left: -99999px !important;
-  width: 1px !important;
-  height: 1px !important;
-  opacity: 0 !important;
-  pointer-events: none !important;
-  border: 0 !important;
-  outline: 0 !important;
-  box-shadow: none !important;
-}
-
 /* ========================= */
 /* Mobile Responsive Layout */
 /* ========================= */
