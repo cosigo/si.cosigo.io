@@ -49,3 +49,6 @@ _config/mail.php
 # ===== backups =====
 backup/
 backups/
+
+# ignore accidental local copies
+public/index copy.html
